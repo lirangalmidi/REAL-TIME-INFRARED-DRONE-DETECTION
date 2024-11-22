@@ -55,3 +55,5 @@ Run the command in the picture in the CMD:
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+
+## Creating the Project Directory
