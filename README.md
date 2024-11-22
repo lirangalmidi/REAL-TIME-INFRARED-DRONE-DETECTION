@@ -13,7 +13,8 @@ Key features of YOLO include:
 ## Installation
 Make sure you have Python 3.11 installed. You can download it from the official Python website.
 
-#1. Install Python 3.11
+## 1. Install Python 3.11
+
 Verify the installation by entering the following command in the CMD
 ```
 python --version
