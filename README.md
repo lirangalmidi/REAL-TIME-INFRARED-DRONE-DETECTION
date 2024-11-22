@@ -33,8 +33,15 @@ pip install numpy ultralytics
 #### Why Use CUDA for GPU Acceleration?
 
 Using CUDA with an NVIDIA GPU provides several key advantages:
+
 **1.Faster Computations:** GPUs are optimized for parallel processing, making them much faster than CPUs for tasks such as training deep learning models or running inference in real time.
   
 **2.Improved Performance for YOLO:** Running YOLOv8 on a GPU significantly improves its detection speed, allowing for real-time performance, which is crucial for applications like drone detection.
 
 **3.Efficient Resource Utilization:** CUDA allows you to fully utilize the GPU's processing power, offloading compute-intensive operations from the CPU and improving overall system performance.
+
+#### Requirements
+**1. NVIDIA GPU:** Your system must have an NVIDIA GPU with a compute capability of at least 3.0.
+
+Driver Version: Install the NVIDIA driver for your GPU . You can download the driver from the NVIDIA Drivers page. [for 11.8 version]([URL](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=Server2016))
+
