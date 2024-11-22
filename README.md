@@ -11,7 +11,9 @@ Key features of YOLO include:
 - **Unified Framework:** YOLO’s single neural network design makes it efficient and compact compared to two-stage detectors like Faster R-CNN.
 
 ## Installation
-Make sure you have Python 3.11 installed. You can download it from the official Python website.  Verify the installation:
+Make sure you have Python 3.11 installed. You can download it from the official Python website.
+
+Verify the installation:
 ```python
 python --version
 
