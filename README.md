@@ -43,5 +43,5 @@ Using CUDA with an NVIDIA GPU provides several key advantages:
 #### Requirements
 **1. NVIDIA GPU:** Your system must have an NVIDIA GPU with a compute capability of at least 3.0.
 
-Driver Version: Install the NVIDIA driver for your GPU . You can download the driver from the NVIDIA Drivers page. [for 11.8 version](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=Server2016)
+**2. Driver Version:** Install the NVIDIA driver for your GPU . You can download the driver from the NVIDIA Drivers page. [for 11.8 version](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=Server2016)
 
