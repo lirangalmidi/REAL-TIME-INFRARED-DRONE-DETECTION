@@ -29,3 +29,4 @@ Install the core libraries for the project:
 ```
 pip install numpy ultralytics
 ```
+### 3. Install CUDA (Optional but **recommended**, for GPU Acceleration)
