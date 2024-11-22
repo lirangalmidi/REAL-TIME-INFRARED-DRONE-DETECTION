@@ -15,11 +15,17 @@ Make sure you have Python 3.11 installed. You can download it from the official 
 
 ### 1. Install Python 3.11
 
-Verify the installation by entering the following command in the CMD
+Verify the installation by entering the following command in the CMD:
 ```
 python --version
 ```
 You should see output similar to:
 ```
 Python 3.11.x
+```
+### 2. Install Required Libraries
+
+Install the core libraries for the project:
+```
+pip install numpy ultralytics
 ```
