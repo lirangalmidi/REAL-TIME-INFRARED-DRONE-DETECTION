@@ -60,3 +60,16 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 To organize the project effectively, follow these steps to create the necessary directory structure:
 ### 1. Open your file explorer and navigate to Drive C and create a new folder named yolo
 ![image](https://github.com/user-attachments/assets/a48424b9-7ef7-41a4-ad50-a4ae5efbfec6)
+
+### 2. Image Processing with YOLOv8
+Once the project folder is set up, you can begin processing images using the YOLOv8 algorithm.
+
+Before training, the YOLOv8 algorithm comes pre-trained on the COCO dataset (if you use the default weights, such as yolov8n.pt, yolov8s.pt, etc.). This means it can already detect 80 common object categories, including:
+
+- Vehicles: cars, trucks, buses, bicycles, motorcycles, airplanes, boats.
+
+- People: humans (general person category).
+
+- Animals: dogs, cats, birds, horses, cows, elephants, etc.
+
+- Objects: backpacks, umbrellas, cell phones, laptops, cups, bottles, etc.
