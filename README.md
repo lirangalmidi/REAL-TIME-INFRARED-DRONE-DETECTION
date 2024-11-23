@@ -153,8 +153,9 @@ https://github.com/user-attachments/assets/881c724a-a7fa-494a-a6da-81d9a6987449
 
 
 ### 4. Real-time Processing with YOLOv8
-We try to invastigate the algorithm in real time- we connected to url ip live camera and use the python code: (you can replace with your url)
+We wanted to test the algorithm in real-time, so we used  URL of an IP camera and use the python code: (you can replace with your url)
 
+(we called it live.py and run it in the cmd in the same manner.)
 ``` python
 from ultralytics import YOLO
 import cv2
