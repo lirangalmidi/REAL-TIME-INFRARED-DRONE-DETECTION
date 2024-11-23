@@ -213,7 +213,11 @@ cap.release()
 cv2.destroyAllWindows()
 
 ```
-https://github.com/user-attachments/assets/a21e64dd-a1fc-4219-a06e-13489deccf1c
+
+
+
+https://github.com/user-attachments/assets/942e265f-499a-4f36-95a1-f3ea77d7f252
+
 
 we also write code with input of a web cam for real time object detection:
 
