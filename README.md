@@ -125,6 +125,10 @@ Go to `run -> detect -> predict` and there you will find the image after process
 
 
 
+https://github.com/user-attachments/assets/9b79b3f3-937a-4637-9b9c-e6bb3275d14d
+
+
+
 2. Open your text editor or IDE (e.g. Thony).
 
 3. Create a new file and save it as video.py in the YOLOv8 folder.
@@ -141,6 +145,12 @@ model = YOLO("yolov8s.pt")
 # Use the model to detect object and save the video to a folder
 model.predict(source="dog.mp4", show=True, save=True, project="output_folder", name="detected_video")
 ```
+Similar to the images, and by repeating the steps in a similar manner, we will obtain the analysis of the video:
+
+
+
+https://github.com/user-attachments/assets/881c724a-a7fa-494a-a6da-81d9a6987449
+
 
 
 
