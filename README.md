@@ -92,6 +92,6 @@ from ultralytics import YOLO
 model = YOLO('models/yolov8.pt')
  
 # Use the model to detect object - drone
-model.predict(source="dron4.jpg", save=True, show=True)
+model.predict(source=".jpg", save=True, show=True)
 ```
 
