@@ -81,9 +81,9 @@ Before training, the YOLOv8 algorithm comes pre-trained on the COCO dataset (if 
 Inside the yolo directory, create a Python file to run the detection process. Follow these steps:
 
 1. Download an image into the directory where you want to perform the processing, for exmaple:
-![dog](https://github.com/user-attachments/assets/6b0dd628-1992-477c-8dba-424271e0765f)
 
-   
+![dog](https://github.com/user-attachments/assets/ff43aa12-9cca-4f95-9967-ad8c5c8bf80e)
+
 2. Open your text editor or IDE (e.g. Thony).
 
 3. Create a new file and save it as image.py in the YOLOv8 folder.
@@ -94,7 +94,7 @@ Copy and paste the following code into the file:
 from ultralytics import YOLO
  
 # Load our custom drone model
-model = YOLO('models/yolov8.pt')
+model = YOLO('yolov8s.pt')
  
 # Use the model to detect object - drone
 model.predict(source="dog.jpg", save=True, show=True)
@@ -106,3 +106,14 @@ Now your directory should look like this:
 
 
 ![image](https://github.com/user-attachments/assets/c6ce2ffe-a429-425d-a0fd-b3602ddedbf5)
+
+
+![image](https://github.com/user-attachments/assets/4d30e2ea-fc9e-4ea4-9c93-f6f7f538a714)
+
+Press Enter and wait for the execution to finish. Finally, the directory should look like this:
+![image](https://github.com/user-attachments/assets/b0069371-a964-448e-8760-d172a54c4023)
+
+Go to `run -> detect -> predict` and there you will find the image after processing and object detection:
+![Image 1](![image](https://github.com/user-attachments/assets/d76c89fe-5b0d-4173-a63c-0641d126b7ce)
+) ![Image 2](![dog](https://github.com/user-attachments/assets/98aa9b9a-cbbe-4777-8941-f852e541e5b6)
+)
