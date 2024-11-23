@@ -100,5 +100,6 @@ model = YOLO('models/yolov8.pt')
 model.predict(source="dog.jpg", save=True, show=True)
 ```
 Now your directory should look like this:
+
 ![image](https://github.com/user-attachments/assets/3b995230-9940-44a1-86ab-237ff1fd61fa)
 
