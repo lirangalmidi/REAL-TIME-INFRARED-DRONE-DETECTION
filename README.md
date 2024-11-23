@@ -119,10 +119,11 @@ Go to `run -> detect -> predict` and there you will find the image after process
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/68c2ec13-0f0e-41c1-9f92-736e233a27d8" width="300"></td>
-    <td><img src="https://github.com/user-attachments/assets/45e5ea1c-4db0-4067-9cc5-d4d0811092a1" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/68c2ec13-0f0e-41c1-9f92-736e233a27d8" width="70%" height="auto"></td>
+    <td><img src="https://github.com/user-attachments/assets/45e5ea1c-4db0-4067-9cc5-d4d0811092a1" width="25%" height="auto"></td>
   </tr>
 </table>
+
 
 
 
