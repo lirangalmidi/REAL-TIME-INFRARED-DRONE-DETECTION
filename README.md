@@ -76,12 +76,17 @@ Before training, the YOLOv8 algorithm comes pre-trained on the COCO dataset (if 
 
 - Objects: backpacks, umbrellas, cell phones, laptops, cups, bottles, etc.
   
-** Create a Python File for Detection **
+**Create a Python File for Detection**
+
 Inside the yolo directory, create a Python file to run the detection process. Follow these steps:
 
-1. Open your text editor or IDE (e.g. Thony).
+1. Download an image into the directory where you want to perform the processing, for exmaple:
+![dog](https://github.com/user-attachments/assets/6b0dd628-1992-477c-8dba-424271e0765f)
 
-2. Create a new file and save it as image.py in the YOLOv8 folder.
+   
+2. Open your text editor or IDE (e.g. Thony).
+
+3. Create a new file and save it as image.py in the YOLOv8 folder.
 
 Copy and paste the following code into the file:
 
@@ -92,6 +97,8 @@ from ultralytics import YOLO
 model = YOLO('models/yolov8.pt')
  
 # Use the model to detect object - drone
-model.predict(source=".jpg", save=True, show=True)
+model.predict(source="dog.jpg", save=True, show=True)
 ```
+Now your directory should look like this:
+![image](https://github.com/user-attachments/assets/3b995230-9940-44a1-86ab-237ff1fd61fa)
 
