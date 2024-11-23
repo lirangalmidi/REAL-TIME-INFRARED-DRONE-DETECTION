@@ -117,4 +117,10 @@ Press Enter and wait for the execution to finish. Finally, the directory should 
 
 Go to `run -> detect -> predict` and there you will find the image after processing and object detection:
 
-![Image 1](![image](https://github.com/user-attachments/assets/d76c89fe-5b0d-4173-a63c-0641d126b7ce)) ![Image 2](![dog](https://github.com/user-attachments/assets/98aa9b9a-cbbe-4777-8941-f852e541e5b6))
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/45e5ea1c-4db0-4067-9cc5-d4d0811092a1" width="25%" height="25%"></td>
+    <td><img src=![image](https://github.com/user-attachments/assets/68c2ec13-0f0e-41c1-9f92-736e233a27d8) width="25%" height="25%"></td>
+  </tr>
+</table>
+
