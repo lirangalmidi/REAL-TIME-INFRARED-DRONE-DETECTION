@@ -81,8 +81,8 @@ Before training, the YOLOv8 algorithm comes pre-trained on the COCO dataset (if 
 Inside the yolo directory, create a Python file to run the detection process. Follow these steps:
 
 1. Download an image into the directory where you want to perform the processing, for exmaple:
+<img src="https://github.com/user-attachments/assets/8ea75dfc-d691-4ddd-b8a3-bc49e7267dea" width=50% height=50%>
 
-![dog](https://github.com/user-attachments/assets/8ea75dfc-d691-4ddd-b8a3-bc49e7267dea)){:height="36px" width="36px"}.
 
 2. Open your text editor or IDE (e.g. Thony).
 
