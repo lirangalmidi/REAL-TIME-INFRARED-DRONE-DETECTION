@@ -153,4 +153,67 @@ https://github.com/user-attachments/assets/881c724a-a7fa-494a-a6da-81d9a6987449
 
 
 ### 4. Real-time Processing with YOLOv8
+we try to invastigate the algorithm in real time- we connected to url ip live camera and use the pyhton code: (you can replace with your url)
+``` python
+from ultralytics import YOLO
+import cv2
+
+# Load custom trained YOLOv8 model
+model = YOLO("yolov8s.pt")
+
+# MJPEG stream URL (replace with the actual URL)
+mjpg_url = "https://s90.ipcamlive.com/streams_timeshift/285cbf3053597caa2/stream.m3u8"
+
+# Open the MJPEG stream using OpenCV
+cap = cv2.VideoCapture(mjpg_url)
+
+# Check if the stream was opened successfully
+if not cap.isOpened():
+    print("Error: Unable to connect to the MJPEG stream.")
+    exit()
+
+# Create a resizable window for displaying the video
+cv2.namedWindow("Detection", cv2.WINDOW_NORMAL)
+
+# Loop through the frames from the MJPEG stream
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        print("Error: Unable to read frame.")
+        break
+
+    # Use the YOLO model to detect objects in the frame
+    results = model(frame)
+
+    # Extract bounding boxes and labels from the results
+    for result in results[0].boxes.data:  # Assuming results[0] is the first frame result
+        x1, y1, x2, y2 = result[:4]  # Coordinates of the bounding box
+        label = result[5]  # Class label
+        confidence = result[4]  # Confidence score
+
+        # Draw the bounding box on the frame
+        cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
+
+        # Put the label and confidence score
+        cv2.putText(frame, f"{model.names[int(label)]}: {confidence:.2f}", (int(x1), int(y1)-10), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+
+    # Display the frame with detected objects
+    cv2.imshow("Detection", frame)
+
+    # Resize the window (optional: you can set a specific width and height)
+    cv2.resizeWindow("Detection", 1500, 600)  # Example dimensions
+
+    # Exit on pressing 'q'
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Release the video capture object and close any OpenCV windows
+cap.release()
+cv2.destroyAllWindows()
+
+```
+https://github.com/user-attachments/assets/a21e64dd-a1fc-4219-a06e-13489deccf1c
+
+
 
