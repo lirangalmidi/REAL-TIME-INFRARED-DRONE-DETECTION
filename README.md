@@ -58,8 +58,10 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 ## Creating the Project Directory
 To organize the project effectively, follow these steps to create the necessary directory structure:
-### 1. Open your file explorer and navigate to Drive C and create a new folder named yolo
-![image](https://github.com/user-attachments/assets/a48424b9-7ef7-41a4-ad50-a4ae5efbfec6)
+### 1. Open your file explorer and navigate to Drive C and create a new folder named YOLOv8
+
+![image](https://github.com/user-attachments/assets/e40a5b5a-2cfa-4bc6-af14-bf2e8773e9a2)
+
 
 ### 2. Image Processing with YOLOv8
 Once the project folder is set up, you can begin processing images using the YOLOv8 algorithm.
@@ -73,3 +75,23 @@ Before training, the YOLOv8 algorithm comes pre-trained on the COCO dataset (if 
 - Animals: dogs, cats, birds, horses, cows, elephants, etc.
 
 - Objects: backpacks, umbrellas, cell phones, laptops, cups, bottles, etc.
+  
+** Create a Python File for Detection **
+Inside the yolo directory, create a Python file to run the detection process. Follow these steps:
+
+1. Open your text editor or IDE (e.g. Thony).
+
+2. Create a new file and save it as image.py in the YOLOv8 folder.
+
+Copy and paste the following code into the file:
+
+``` python
+from ultralytics import YOLO
+ 
+# Load our custom drone model
+model = YOLO('models/yolov8.pt')
+ 
+# Use the model to detect object - drone
+model.predict(source="dron4.jpg", save=True, show=True)
+```
+
