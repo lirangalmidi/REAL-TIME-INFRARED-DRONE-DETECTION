@@ -82,7 +82,7 @@ Inside the yolo directory, create a Python file to run the detection process. Fo
 
 1. Download an image into the directory where you want to perform the processing, for exmaple:
 
-<img src="C:\YOLOv8\dog.jpg" width="300">
+![]("C:\YOLOv8\dog.jpg" | width=100)
 
 2. Open your text editor or IDE (e.g. Thony).
 
