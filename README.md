@@ -82,7 +82,7 @@ Inside the yolo directory, create a Python file to run the detection process. Fo
 
 1. Download an image into the directory where you want to perform the processing, for exmaple:
 
-![dog](https://github.com/user-attachments/assets/ff43aa12-9cca-4f95-9967-ad8c5c8bf80e)
+![dog](https://github.com/user-attachments/assets/ff43aa12-9cca-4f95-9967-ad8c5c8bf80e){: width="200"}
 
 2. Open your text editor or IDE (e.g. Thony).
 
@@ -114,6 +114,4 @@ Press Enter and wait for the execution to finish. Finally, the directory should 
 ![image](https://github.com/user-attachments/assets/b0069371-a964-448e-8760-d172a54c4023)
 
 Go to `run -> detect -> predict` and there you will find the image after processing and object detection:
-![Image 1](![image](https://github.com/user-attachments/assets/d76c89fe-5b0d-4173-a63c-0641d126b7ce)
-) ![Image 2](![dog](https://github.com/user-attachments/assets/98aa9b9a-cbbe-4777-8941-f852e541e5b6)
-)
+![Image 1](![image](https://github.com/user-attachments/assets/d76c89fe-5b0d-4173-a63c-0641d126b7ce) ![Image 2](![dog](https://github.com/user-attachments/assets/98aa9b9a-cbbe-4777-8941-f852e541e5b6)
