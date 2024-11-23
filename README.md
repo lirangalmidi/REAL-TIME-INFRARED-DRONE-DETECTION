@@ -121,7 +121,7 @@ Go to `run -> detect -> predict` and there you will find the image after process
 
 ### 3. Video Processing with YOLOv8
 
-1. Download an Video into the directory where you want to perform the processing, for exmaple:
+1. Download a Video into the directory where you want to perform the processing, for exmaple:
 
 
 
