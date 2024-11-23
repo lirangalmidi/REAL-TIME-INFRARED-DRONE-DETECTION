@@ -215,5 +215,6 @@ cv2.destroyAllWindows()
 ```
 https://github.com/user-attachments/assets/a21e64dd-a1fc-4219-a06e-13489deccf1c
 
+we also write code with input of a web cam for real time object detection:
 
 
