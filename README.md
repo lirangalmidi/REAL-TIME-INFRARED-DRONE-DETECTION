@@ -103,15 +103,18 @@ Now your directory should look like this:
 
 ![image](https://github.com/user-attachments/assets/3b995230-9940-44a1-86ab-237ff1fd61fa)
 
-
+Write `cmd` in the folder path.
 
 ![image](https://github.com/user-attachments/assets/c6ce2ffe-a429-425d-a0fd-b3602ddedbf5)
 
+In the cmd window, enter the command: `python image.py`
 
 ![image](https://github.com/user-attachments/assets/4d30e2ea-fc9e-4ea4-9c93-f6f7f538a714)
 
 Press Enter and wait for the execution to finish. Finally, the directory should look like this:
+
 ![image](https://github.com/user-attachments/assets/b0069371-a964-448e-8760-d172a54c4023)
 
 Go to `run -> detect -> predict` and there you will find the image after processing and object detection:
+
 ![Image 1](![image](https://github.com/user-attachments/assets/d76c89fe-5b0d-4173-a63c-0641d126b7ce)) ![Image 2](![dog](https://github.com/user-attachments/assets/98aa9b9a-cbbe-4777-8941-f852e541e5b6))
