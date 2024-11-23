@@ -96,7 +96,7 @@ from ultralytics import YOLO
 # Load our custom drone model
 model = YOLO('yolov8s.pt')
  
-# Use the model to detect object - drone
+# Use the model to detect object
 model.predict(source="dog.jpg", save=True, show=True)
 ```
 Now your directory should look like this:
@@ -119,7 +119,28 @@ Go to `run -> detect -> predict` and there you will find the image after process
 
 <img src="https://github.com/user-attachments/assets/45e5ea1c-4db0-4067-9cc5-d4d0811092a1" width="25%" height="auto">
 
+### 3. Video Processing with YOLOv8
 
+1. Download an Video into the directory where you want to perform the processing, for exmaple:
+
+
+
+2. Open your text editor or IDE (e.g. Thony).
+
+3. Create a new file and save it as video.py in the YOLOv8 folder.
+
+Copy and paste the following code into the file:
+
+``` python
+# For video
+from ultralytics import YOLO
+
+# Load custom trained YOLOv8 model
+model = YOLO("yolov8s.pt")
+
+# Use the model to detect object and save the video to a folder
+model.predict(source="dog.mp4", show=True, save=True, project="output_folder", name="detected_video")
+```
 
 
 
