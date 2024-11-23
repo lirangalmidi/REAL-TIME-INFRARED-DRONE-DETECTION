@@ -57,3 +57,5 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 
 ## Creating the Project Directory
+To organize the project effectively, follow these steps to create the necessary directory structure:
+### 1. Open your file explorer and navigate to Drive C and create a new folder named yolo
