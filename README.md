@@ -155,6 +155,7 @@ https://github.com/user-attachments/assets/881c724a-a7fa-494a-a6da-81d9a6987449
 ### 4. Real-time Processing with YOLOv8
 
 **Option 1**
+
 We wanted to test the algorithm in real-time, so we used  URL of an IP camera and use the python code: (you can replace with your url)
 
 (we called it live.py and run it in the cmd in the same manner.)
@@ -227,6 +228,7 @@ https://github.com/user-attachments/assets/be9cd1ad-eded-4667-b79d-b1b2721cc586
 This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.
 
 **Option 2**
+
 we also write code with input of a web cam for real time object detection:
 
 
