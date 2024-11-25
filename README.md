@@ -314,6 +314,7 @@ It’s important to remember that training deep learning models can be computati
 
 run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
 
-![image](https://github.com/user-attachments/assets/94e7c598-c918-4639-b7f0-ff95818faf00)
+![image](https://github.com/user-attachments/assets/0fb1387e-044b-4116-a570-2b35624ae8ab)
+
 
 ![image](https://github.com/user-attachments/assets/5b56cb1a-5cd2-4b09-9f35-acb98a120dc8)
