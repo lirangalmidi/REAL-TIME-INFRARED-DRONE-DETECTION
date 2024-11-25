@@ -364,8 +364,19 @@ In this project, we use the Boson FLIR Teledyne 2.3mm thermal sensor for real-ti
 
 <img src="https://github.com/user-attachments/assets/ad0f2fae-718c-4bef-ac9e-6ffacb140858" width=25% height=25%>
 
+## Specifications 
+ 
+| Property           | Value                   |
+|--------------------|-------------------------|
+| Resolution         | 320 x 256 pixels       |
+| Lens               | 2.3mm                  |
+| Interface          | USB Type-C             |
+| Thermal Sensitivity| <50mK @ 60Hz           |
+| Weight             | 7.5 g without lens     |
+| Lens Options       | 320 x 256 - 92° (HFOV) |
+| Operating Temperature Range  | -40°C to 80°C            |
+| Input Voltage| 3.3 VDC           |
 
-with the attached datasheet:
 
 
 
