@@ -10,6 +10,8 @@ Key features of YOLO include:
 - **End-to-End Training:** The algorithm is trained end-to-end, optimizing both the bounding box prediction and classification tasks in a single step.
 - **Unified Framework:** YOLO’s single neural network design makes it efficient and compact compared to two-stage detectors like Faster R-CNN.
 
+The YOLO (You Only Look Once) algorithm is a powerful tool for object detection, enabling real-time processing with high accuracy. It is widely used in various applications, such as real-time video processing for detecting and tracking moving objects, making it a key component in autonomous driving systems where pedestrians, vehicles, and traffic signs must be identified quickly and reliably. Additionally, YOLO is prevalent in security systems, including surveillance camera monitoring to detect intrusions or track suspicious individuals. Other applications include AI-based assistance systems, wildlife detection for environmental research, and smart traffic infrastructure management. Thanks to its efficiency, speed, and compatibility with diverse hardware, YOLO remains a leading solution in the field of artificial intelligence.
+
 ## Installation
 Make sure you have Python 3.11 installed. You can download it from the official Python website.
 
@@ -249,7 +251,7 @@ cv2.destroyAllWindows()
 
 https://github.com/user-attachments/assets/c976aa65-048e-419e-a0c6-8bb13621975a
 
-
+As mentioned from the algorithm's overview, one of its most common uses is in security systems. Later on, we will train the model to detect drones for our  project's purposes.
 
 
 This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.
