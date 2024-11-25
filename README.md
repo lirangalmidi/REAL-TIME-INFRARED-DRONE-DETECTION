@@ -320,7 +320,7 @@ Please note that the code relies on both the pre-trained model file ("yolov8n.pt
 
 It’s important to remember that training deep learning models can be computationally demanding and time-consuming, especially for object detection tasks. A powerful GPU and adequate resources are required to successfully complete this process. 
 
-run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
+Run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training process will begin:
 
 ![image](https://github.com/user-attachments/assets/f72f7556-de58-4e19-9101-8099dab7a3bb)
 
