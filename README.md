@@ -390,8 +390,11 @@ For more details about the sensor you can find the datasheet [here](https://f.hu
 The GUI is crucial for the proper integration and configuration of the Boson FLIR camera with the system. It provides an intuitive interface that simplifies the setup process, making it easier to configure video output, communication settings, and advanced camera features. The GUI allows users to control and fine-tune critical parameters, such as video format, color palettes, and telemetry data, ensuring optimal performance and accurate thermal measurements. 
 
 3) We will open the GUI and configure the sensor as follows:
+   
 A) Enable the USB video (at the top left)
+
 B) select the device : Flir video
+
 C) at the bottom right define the port.
 
 ![image](https://github.com/user-attachments/assets/5346ea29-c9cd-484d-b3f6-e96b7fded37d)
