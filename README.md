@@ -337,7 +337,7 @@ In each of the scripts, only one line needs to be changed to replace the model w
 ``` to ```model = YOLO("runs/detect/train/weights/best.pt")```
 You can now run the scripts on sources containing drones. If optimal detection is not achieved, you can adjust the number of epochs in the training process and retrain the model, or retrain it using a different dataset.
 for exmaples:
-1. images: (Before & After)
+### 1. Images: (Before & After)
 ![imgonline-com-ua-twotoone-9ZckVe2TiqQqk](https://github.com/user-attachments/assets/8d9ee51b-c751-4a48-8153-1577631445ba)
 
 ![imgonline-com-ua-twotoone-hJw57o05RZ](https://github.com/user-attachments/assets/41d6823e-4fbb-4609-804a-6a77a7ff6ea4)
