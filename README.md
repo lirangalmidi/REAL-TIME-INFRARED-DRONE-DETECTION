@@ -317,5 +317,8 @@ run the code  in the cmd the script train_model.py by typing `python train_model
 ![Vmake-1732553538](https://github.com/user-attachments/assets/1f4c4fd9-963c-432e-afca-75a24353edbc)
 
 
+![Vmake-1732553538](https://github.com/user-attachments/assets/043b5f8a-8709-4a6a-abf2-2853370cbae0)
 
-![image](https://github.com/user-attachments/assets/5b56cb1a-5cd2-4b09-9f35-acb98a120dc8)
+
+In each of the scripts, only one line needs to be changed to replace the model with the trained model. You need to change the line: ```model = YOLO("yolov8s.pt")
+``` to ```model = YOLO("runs/detect/train/weights/best.pt")```
