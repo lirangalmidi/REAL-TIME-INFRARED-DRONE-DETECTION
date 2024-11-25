@@ -257,6 +257,6 @@ As mentioned from the algorithm's overview, one of its most common uses is in se
 
 **Option 2**
 
-we also write code with input of a web cam for real time object detection:
+we also write code with input of a webcam for real time object detection:
 
 
