@@ -359,3 +359,15 @@ https://github.com/user-attachments/assets/ae96d007-6685-473c-a6f9-fe032fae9d70
 https://github.com/user-attachments/assets/3ccdc1ab-023f-47f0-ad42-bd953008ba61
 
 ## Sensor Integration
+
+In this project, we use the Boson FLIR Teledyne 2.3mm thermal sensor for real-time drone detection. This sensor provides high-quality thermal imaging, making it suitable for applications where environmental conditions or lighting may affect the performance of standard cameras.
+
+![image](https://github.com/user-attachments/assets/ad0f2fae-718c-4bef-ac9e-6ffacb140858)
+
+with the attached datasheet:
+
+![image](https://github.com/user-attachments/assets/4060ad62-445a-4a41-9851-fc1cc79e7619)
+
+
+
+The Boson FLIR sensor interfaces with the system using a Type-C to USB connection directly to the computer.
