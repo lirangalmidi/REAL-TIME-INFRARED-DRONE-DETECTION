@@ -322,9 +322,8 @@ It’s important to remember that training deep learning models can be computati
 
 run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
 
-![389621413-94e7c598-c918-4639-b7f0-ff95818faf00-fotor-enhance-2024112519928](https://github.com/user-attachments/assets/aa4dc2ba-f4ab-4d67-8022-66ad94feb9cc)
+![image](https://github.com/user-attachments/assets/f72f7556-de58-4e19-9101-8099dab7a3bb)
 
-![389622239-5b56cb1a-5cd2-4b09-9f35-acb98a120dc8-fotor-enhance-2024112519757](https://github.com/user-attachments/assets/9497ba9a-33d3-4c13-9eb7-61142caff242)
 
 After trainig new directory will apear, the ```runs/detect/train/weights/``` directory is where all the files related to the model training are stored, including the weights of the trained model.
 
