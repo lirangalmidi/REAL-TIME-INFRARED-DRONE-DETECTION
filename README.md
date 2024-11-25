@@ -396,6 +396,6 @@ C) at the bottom right define the port.
 
 ![image](https://github.com/user-attachments/assets/5346ea29-c9cd-484d-b3f6-e96b7fded37d)
 
-![image](https://github.com/user-attachments/assets/23ae522f-8fe2-40f6-b334-9119581f864b)
+
 
 
