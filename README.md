@@ -156,7 +156,7 @@ https://github.com/user-attachments/assets/881c724a-a7fa-494a-a6da-81d9a6987449
 
 ### 4. Real-time Processing with YOLOv8
 
-**Option 1**
+**Option 1- ip secuirty camera real time detection**
 
 We wanted to test the algorithm in real-time, so we used  URL of an IP camera and use the python code: (you can replace with your url)
 
@@ -255,8 +255,33 @@ As mentioned from the algorithm's overview, one of its most common uses is in se
 > Note: This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.
 
 
-**Option 2**
+**Option 2 -Webcam real time detection**
 
-we also write code with input of a webcam for real time object detection:
+we also write code with input of a webcam (This script will help later to integrate with the sensor) for real time object detection:
+
+``` python
+# For webcam
+from ultralytics import YOLO
+ 
+# Load custom trained YOLOv8 model
+model = YOLO("yolov8s.pt")
+ 
+# Use the model to detect object
+model.predict(source="1", show=True)
+``` 
+
+(we called it webcam.py and run it in the cmd in the same manner.)
 
 
+
+
+## Training
+
+Before we begin training the model, we will create a new folder named "yolo" (for the trained model), which will contain all the following scripts:
+
+- image.py
+- video.py
+- webcam.py
+
+In addition, for the algorithm to detect drones, we will need to train it on a labeled image dataset. Building a custom dataset can be a time-consuming process, often taking dozens or even hundreds of hours to collect images, label them, and export them in the proper format. Fortunately, Roboflow streamlines this process, making it as fast and straightforward as possible.
+you can search for your dataset [here](https://universe.roboflow.com/browse/classic)
