@@ -318,7 +318,7 @@ During training, the model iterates over the dataset for the specified number of
 
 Please note that the code relies on both the pre-trained model file ("yolov8n.pt") and the dataset configuration file ("data.yaml") that contains the necessary details about the dataset and model.
 
-It’s important to remember that training deep learning models can be computationally demanding and time-consuming, especially for object detection tasks. A powerful GPU and adequate resources are required to successfully complete this process. For precise fire detection, smaller image sizes might not provide optimal performance; typically, larger image sizes offer better detection results.
+It’s important to remember that training deep learning models can be computationally demanding and time-consuming, especially for object detection tasks. A powerful GPU and adequate resources are required to successfully complete this process. 
 
 run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
 
