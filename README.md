@@ -345,6 +345,12 @@ for exmaples:
 ![dron2](https://github.com/user-attachments/assets/596d09ad-a2a1-455a-842c-34f5042582db)
 
 
-### 1. Videos:
+### 2. Videos:
 
 https://github.com/user-attachments/assets/7e730941-21a9-4642-9cf0-c263449e9567
+
+
+https://github.com/user-attachments/assets/82b7081d-ecd3-4151-94c8-8c6784ba88d0
+
+
+
