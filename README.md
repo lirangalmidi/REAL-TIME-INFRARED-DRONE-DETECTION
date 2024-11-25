@@ -291,4 +291,29 @@ After selecting the dataset we want to work with, we will download it as a ZIP f
 
 ![image](https://github.com/user-attachments/assets/ba44ef14-ff9b-44ec-b641-a1a9bd899182)
 
+Then we put in the folder python script called "train_model.py":
+```python
+if __name__ == '__main__':
+    from ultralytics import YOLO
+    model = YOLO('yolov8n.pt')
+    model.train(data='data.yaml', epochs=1, device=0)
+```
 
+### Model Instructions:
+Training the YOLO model begins with the `train` function, using the following training parameters:
+
+- **data**: Specifies the path to a configuration file (e.g., `data.yaml`) that contains information about the dataset, such as the number of classes and the locations of training images and annotations.
+- **epochs**: Defines the total number of training epochs, determining how many times the entire dataset will be used to update the model.
+
+
+During training, the model iterates over the dataset for the specified number of epochs. In each epoch, it learns to recognize objects (such as drones, in this case) using the images and annotations from the dataset.
+
+Please note that the code relies on both the pre-trained model file ("yolov8n.pt") and the dataset configuration file ("data.yaml") that contains the necessary details about the dataset and model.
+
+It’s important to remember that training deep learning models can be computationally demanding and time-consuming, especially for object detection tasks. A powerful GPU and adequate resources are required to successfully complete this process. For precise fire detection, smaller image sizes might not provide optimal performance; typically, larger image sizes offer better detection results.
+
+run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
+
+![image](https://github.com/user-attachments/assets/94e7c598-c918-4639-b7f0-ff95818faf00)
+
+![image](https://github.com/user-attachments/assets/5b56cb1a-5cd2-4b09-9f35-acb98a120dc8)
