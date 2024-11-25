@@ -364,7 +364,7 @@ In this project, we use the Boson FLIR Teledyne 2.3mm thermal sensor for real-ti
 
 <img src="https://github.com/user-attachments/assets/ad0f2fae-718c-4bef-ac9e-6ffacb140858" width=25% height=25%>
 
-## Specifications 
+# Specifications 
  
 | Property           | Value                   |
 |--------------------|-------------------------|
@@ -378,7 +378,7 @@ In this project, we use the Boson FLIR Teledyne 2.3mm thermal sensor for real-ti
 | Input Voltage| 3.3 VDC           |
 
 
-
+For more details about the sensor you can find the datasheet [here](https://f.hubspotusercontent10.net/hubfs/20335613/flir-boson-datasheet.pdf)
 
 
 
