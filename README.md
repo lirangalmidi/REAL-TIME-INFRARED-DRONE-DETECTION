@@ -336,3 +336,11 @@ When training the model, YOLO evaluates the model's performance after each epoch
 
 In each of the scripts, only one line needs to be changed to replace the model with the trained model. You need to change the line: ```model = YOLO("yolov8s.pt")
 ``` to ```model = YOLO("runs/detect/train/weights/best.pt")```
+You can now run the scripts on sources containing drones. If optimal detection is not achieved, you can adjust the number of epochs in the training process and retrain the model, or retrain it using a different dataset.
+for exmaples:
+1. images: (Before & After)
+![imgonline-com-ua-twotoone-9ZckVe2TiqQqk](https://github.com/user-attachments/assets/8d9ee51b-c751-4a48-8153-1577631445ba)
+
+![imgonline-com-ua-twotoone-9ZckVe2TiqQqk](https://github.com/user-attachments/assets/ecf65abf-93c5-4e04-83cd-213d1cf9e521)
+
+![dron2](https://github.com/user-attachments/assets/66724821-521c-4835-8505-544dca592de4)
