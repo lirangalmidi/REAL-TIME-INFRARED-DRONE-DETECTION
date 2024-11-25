@@ -396,6 +396,6 @@ C) at the bottom right define the port.
 
 ![image](https://github.com/user-attachments/assets/5346ea29-c9cd-484d-b3f6-e96b7fded37d)
 
-
+You can change the sensor settings here, for example, selecting from a variety of color palettes such as Ironbow, White Hot (at the bottom) which emphasize heat and cold in different ways.Another example is to adjust the image contrast. Additionally, we can capture images and videos using the sensor for further data processing(at the top right). Once all the parameters for the sensor are set, we can exit the software, and these settings will be saved.
 
 
