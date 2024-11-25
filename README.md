@@ -342,9 +342,7 @@ for exmaples:
 
 ![imgonline-com-ua-twotoone-hJw57o05RZ](https://github.com/user-attachments/assets/41d6823e-4fbb-4609-804a-6a77a7ff6ea4)
 
-![dron2](https://github.com/user-attachments/assets/596d09ad-a2a1-455a-842c-34f5042582db)![imgonline-com-ua-twotoone-hJw57o05RZ](https://github.com/user-attachments/assets/3408e611-0925-4f03-9a53-50e689414a7c)
-
-
+![dron2](https://github.com/user-attachments/assets/596d09ad-a2a1-455a-842c-34f5042582db)
 
 https://github.com/user-attachments/assets/7e730941-21a9-4642-9cf0-c263449e9567
 
