@@ -353,4 +353,9 @@ https://github.com/user-attachments/assets/82b7081d-ecd3-4151-94c8-8c6784ba88d0
 
 https://github.com/user-attachments/assets/ae96d007-6685-473c-a6f9-fe032fae9d70
 
+### 3. Real time drone detection using webcam:
+> Note: This is not the final result. In this section, we used a regular webcam to capture a flying drone in the lab. Later on , integration with the thermal sensor needs to be implemented.
 
+https://github.com/user-attachments/assets/3ccdc1ab-023f-47f0-ad42-bd953008ba61
+
+## Sensor Integration
