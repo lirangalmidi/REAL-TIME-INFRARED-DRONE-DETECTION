@@ -340,6 +340,7 @@ for exmaples:
 1. images: (Before & After)
 ![imgonline-com-ua-twotoone-9ZckVe2TiqQqk](https://github.com/user-attachments/assets/8d9ee51b-c751-4a48-8153-1577631445ba)
 
-![imgonline-com-ua-twotoone-9ZckVe2TiqQqk](https://github.com/user-attachments/assets/ecf65abf-93c5-4e04-83cd-213d1cf9e521)
+![dron2](https://github.com/user-attachments/assets/596d09ad-a2a1-455a-842c-34f5042582db)
+
 
 ![dron2](https://github.com/user-attachments/assets/66724821-521c-4835-8505-544dca592de4)
