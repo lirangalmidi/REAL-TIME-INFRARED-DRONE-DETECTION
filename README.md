@@ -252,7 +252,7 @@ cv2.destroyAllWindows()
 https://github.com/user-attachments/assets/c976aa65-048e-419e-a0c6-8bb13621975a
 
 As mentioned from the algorithm's overview, one of its most common uses is in security systems. Later on, we will train the model to detect drones for our  project's purposes.
-<span style="color:red">This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.</span>
+![#f03c15](This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.) `#f03c15`
 
 **Option 2**
 
