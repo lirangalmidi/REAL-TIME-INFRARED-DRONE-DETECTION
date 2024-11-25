@@ -380,12 +380,16 @@ In this project, we use the Boson FLIR Teledyne 2.3mm thermal sensor for real-ti
 
 For more details about the sensor you can find the datasheet [here](https://f.hubspotusercontent10.net/hubfs/20335613/flir-boson-datasheet.pdf)
 
+## 
 
+#### Integration Steps
 
-The Boson FLIR sensor interfaces with the system using a Type-C to USB connection directly to the computer.
+1) The Boson FLIR sensor interfaces with the system using a Type-C to USB connection directly to the computer.
 
-we will download the GUI from the [Boson product support page](https://www.flir.com/oem/thermal-integration-made-easy/software-integration---boson/?srsltid=AfmBOoonR5MLKXFkc627GO9o6MFZpYEETRtnkBgzzkbYdIpfkqROwiP0)
+2) we will download the GUI from the [Boson product support page](https://www.flir.com/oem/thermal-integration-made-easy/software-integration---boson/?srsltid=AfmBOoonR5MLKXFkc627GO9o6MFZpYEETRtnkBgzzkbYdIpfkqROwiP0)
 
 The GUI is crucial for the proper integration and configuration of the Boson FLIR camera with the system. It provides an intuitive interface that simplifies the setup process, making it easier to configure video output, communication settings, and advanced camera features. The GUI allows users to control and fine-tune critical parameters, such as video format, color palettes, and telemetry data, ensuring optimal performance and accurate thermal measurements. 
+
+
 
 
