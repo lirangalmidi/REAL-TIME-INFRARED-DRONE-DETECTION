@@ -285,11 +285,19 @@ Before we begin training the model, we will create a new folder named "yolo" (fo
 
 In addition, for the algorithm to detect drones, we will need to train it on a labeled image dataset. Building a custom dataset can be a time-consuming process, often taking dozens or even hundreds of hours to collect images, label them, and export them in the proper format. Fortunately, Roboflow streamlines this process, making it as fast and straightforward as possible.
 
-You can search for your dataset [here](https://universe.roboflow.com/browse/classic).
+You can search for your dataset [here](https://universe.roboflow.com/browse/classic). In the project, we used a dataset containing both thermal and regular images.
 
 After selecting the dataset we want to work with, we will download it as a ZIP file to our computer and extract the files into the folder. The dataset contains three folders: train, test, and valid. Each folder has two subfolders: images and labels.
 
 ![image](https://github.com/user-attachments/assets/ba44ef14-ff9b-44ec-b641-a1a9bd899182)
+
+The labels directory is where the labels for each image in your dataset are stored. Each image in the dataset typically has an associated label file that describes information about the objects in the image, such as the object type and its location.
+
+In YOLO, each label is a text file with the same name as the image but with a .txt extension. This file contains one line for each object in the image, with the following information:
+
+1.Center coordinates (x_center, y_center) – the location of the center of the bounding box that encloses the object, relative to the image size (values between 0 and 1).
+
+2.Width and Height (width, height) – the dimensions of the bounding box, also relative to the image size (values between 0 and 1).
 
 Then we put in the folder python script called "train_model.py":
 ```python
@@ -314,11 +322,17 @@ It’s important to remember that training deep learning models can be computati
 
 run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training procees will begin:
 
-![Vmake-1732553538](https://github.com/user-attachments/assets/1f4c4fd9-963c-432e-afca-75a24353edbc)
+![389621413-94e7c598-c918-4639-b7f0-ff95818faf00-fotor-enhance-2024112519928](https://github.com/user-attachments/assets/aa4dc2ba-f4ab-4d67-8022-66ad94feb9cc)
 
+![389622239-5b56cb1a-5cd2-4b09-9f35-acb98a120dc8-fotor-enhance-2024112519757](https://github.com/user-attachments/assets/9497ba9a-33d3-4c13-9eb7-61142caff242)
 
-![Vmake-1732553538](https://github.com/user-attachments/assets/043b5f8a-8709-4a6a-abf2-2853370cbae0)
+After trainig new directory will apear, the ```runs/detect/train/weights/``` directory is where all the files related to the model training are stored, including the weights of the trained model.
 
+The best.pt file is the weight file that contains the model with the best performance during the training process, meaning the model that achieved the most accurate results on the dataset. This model is selected based on metrics like accuracy or loss during the training.
+
+![image](https://github.com/user-attachments/assets/287d7d8f-752a-4c30-af89-062958cfc33a)
+
+When training the model, YOLO evaluates the model's performance after each epoch and updates the weights to improve the performance. Each time the model performs better on the validation, the weights are updated, and the best weights are saved in the best.pt file.
 
 In each of the scripts, only one line needs to be changed to replace the model with the trained model. You need to change the line: ```model = YOLO("yolov8s.pt")
 ``` to ```model = YOLO("runs/detect/train/weights/best.pt")```
