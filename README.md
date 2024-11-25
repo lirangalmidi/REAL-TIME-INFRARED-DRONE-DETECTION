@@ -284,4 +284,11 @@ Before we begin training the model, we will create a new folder named "yolo" (fo
 - webcam.py
 
 In addition, for the algorithm to detect drones, we will need to train it on a labeled image dataset. Building a custom dataset can be a time-consuming process, often taking dozens or even hundreds of hours to collect images, label them, and export them in the proper format. Fortunately, Roboflow streamlines this process, making it as fast and straightforward as possible.
-you can search for your dataset [here](https://universe.roboflow.com/browse/classic)
+
+You can search for your dataset [here](https://universe.roboflow.com/browse/classic).
+
+After selecting the dataset we want to work with, we will download it as a ZIP file to our computer and extract the files into the folder. The dataset contains three folders: train, test, and valid. Each folder has two subfolders: images and labels.
+
+![image](https://github.com/user-attachments/assets/ba44ef14-ff9b-44ec-b641-a1a9bd899182)
+
+
