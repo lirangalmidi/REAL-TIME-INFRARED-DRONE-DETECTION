@@ -167,7 +167,10 @@ import cv2
 model = YOLO("yolov8s.pt")
 
 # MJPEG stream URL (replace with the actual URL)
-mjpg_url = "https://s34.ipcamlive.com/streams/22gv5xdbajoip2w1u/stream.m3u8"
+mjpg_url = "https://s123.ipcamlive.com/streams/7b5ahr6smisyvlu8d/stream.m3u8"
+
+# MJPEG stream URL (replace with the actual URL)
+#mjpg_url = "https://s34.ipcamlive.com/streams/22gv5xdbajoip2w1u/stream.m3u8"
 
 # Open the MJPEG stream using OpenCV
 cap = cv2.VideoCapture(mjpg_url)
@@ -199,9 +202,33 @@ while True:
         # Draw the bounding box on the frame
         cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 0, 0), 2)
 
-        # Put the label and confidence score
-        cv2.putText(frame, f"{model.names[int(label)]}: {confidence:.2f}", (int(x1), int(y1)-10), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+        # Prepare the text with label and confidence score
+        text = f"{model.names[int(label)]}: {confidence:.2f}"
+
+        # Get the text size for the background rectangle
+        (text_width, text_height), baseline = cv2.getTextSize(
+            text, cv2.FONT_HERSHEY_SIMPLEX, 0.8, 2
+        )
+        # Set the background rectangle coordinates
+        bg_x1, bg_y1 = int(x1), int(y1) - text_height - 10
+        bg_x2, bg_y2 = int(x1) + text_width, int(y1)
+        # Ensure coordinates are within the frame
+        bg_x1 = max(0, bg_x1)
+        bg_y1 = max(0, bg_y1)
+
+        # Draw a filled rectangle as the background for the text
+        cv2.rectangle(frame, (bg_x1, bg_y1), (bg_x2, bg_y2), (0, 0, 0), -1)
+
+        # Put the label and confidence score on top of the background rectangle
+        cv2.putText(
+            frame,
+            text,
+            (int(x1), int(y1) - 5),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.8,
+            (255, 255, 255),
+            2,
+        )
 
     # Display the frame with detected objects
     cv2.imshow("Detection", frame)
@@ -217,12 +244,12 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
-
 ```
 
 
-https://github.com/user-attachments/assets/be9cd1ad-eded-4667-b79d-b1b2721cc586
+https://github.com/user-attachments/assets/c976aa65-048e-419e-a0c6-8bb13621975a
+
+
 
 
 This method helped us evaluate the real-time performance of the algorithm's object detection capabilities, but we did not use this code for integration with the sensor.
