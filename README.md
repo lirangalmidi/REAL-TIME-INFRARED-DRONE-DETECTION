@@ -1,6 +1,15 @@
 # REAL-TIME INFRARED DRONE DETECTION
 Final Project Documentation ,Electrical and Electronics Engineering , Tel Aviv University ,2024-2025
 
+# Project Goal:
+The primary aim of this project is to create a sophisticated system for real-time drone detection using infrared sensors and real time detection algorithm. This system is designed to provide accurate and reliable detection under various environmental conditions.
+
+# Engineering Motivation:
+With the growing illegal use of drones for activities such as smuggling, surveillance, and even the drone which drops explosives, the need for an effective detection system is becoming increasingly critical. By combining thermal imaging with advanced machine learning algorithms, this project offers a reliable solution to ensure precise detection, even in challenging conditions like low visibility or adverse weather.
+
+# Implementation Approach:
+The system utilizes a thermal camera(Teledyne flir Boson 2.3mm) to capture infrared data, which is then processed using the YOLOv8 algorithm for drone identification. The project involves developing a pipeline for image preprocessing, model training, and real-time inference. It also includes integrating a custom dataset to improve detection accuracy.
+
 ## Algorithm Overview (YOLOv8)
 
 YOLO (You Only Look Once) is a real-time, one-stage object detection algorithm known for its speed and accuracy. The algorithm divides the input image into a grid and simultaneously predicts bounding boxes and their associated class probabilities for each cell. 
