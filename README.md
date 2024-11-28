@@ -2,7 +2,7 @@
 Final Project Documentation ,Electrical and Electronics Engineering , Tel Aviv University ,2024-2025
 
 ## Project Goal:
-The primary aim of this project is to create a sophisticated system for real-time drone detection using infrared sensors and real time detection algorithm. This system is designed to provide accurate and reliable detection under various environmental conditions.
+The primary aim of this project is to create a sophisticated system for real-time drone detection using infrared sensor and real time detection algorithm. This system is designed to provide accurate and reliable detection under various environmental conditions.
 
 ## Engineering Motivation:
 With the growing illegal use of drones for activities such as smuggling, surveillance, and even the drone which drops explosives, the need for an effective detection system is becoming increasingly critical. By combining thermal imaging with advanced machine learning algorithms, this project offers a reliable solution to ensure precise detection, even in challenging conditions like low visibility or adverse weather.
