@@ -418,6 +418,7 @@ Recording the drone in flight using the sensor (images and videos) serves as bot
 ### Images at 6 [meters]:
 ![imgonline-com-ua-twotoone-d290HGVvvNR](https://github.com/user-attachments/assets/a325e5cc-2520-438b-bac9-ce9f17cbdd51)
 
+![Boson3](https://github.com/user-attachments/assets/7b60b9ba-57d8-46f7-b75d-5fa55e82ce24)
 
 
 ### Video  at 15[meters] ± ∆ :
