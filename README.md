@@ -415,7 +415,7 @@ You can change the sensor settings here, for example, selecting from a variety o
 
 Recording the drone in flight using the sensor (images and videos) serves as both a preparatory step and an initial analysis phase. It allows for a detailed assessment of how the drone appears in thermal imagery during flight, providing valuable insight into whether clear and accurate identification can be achieved. This preliminary data helps in evaluating whether the detection algorithm can effectively recognize the drone in various conditions before proceeding to real-time detection. By analyzing these recordings, we can fine-tune the detection process, ensuring it is optimized for real-time application.This also allows for the creation of a additional detailed dataset, which can be used to train the model. The recorded data helps the model learn to recognize different drone characteristics and behaviors under various conditions, ultimately improving the accuracy and reliability of the detection algorithm in real-time scenarios.
 
-### images at 6 [meters]:
+### Images at 6 [meters]:
 ![imgonline-com-ua-twotoone-d290HGVvvNR](https://github.com/user-attachments/assets/a325e5cc-2520-438b-bac9-ce9f17cbdd51)
 
 
