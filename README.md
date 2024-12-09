@@ -331,7 +331,6 @@ It’s important to remember that training deep learning models can be computati
 
 Run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training process will begin:
 
-![image](https://github.com/user-attachments/assets/f72f7556-de58-4e19-9101-8099dab7a3bb)
 
 
 After trainig new directory will apear, the ```runs/detect/train/weights/``` directory is where all the files related to the model training are stored, including the weights of the trained model.
@@ -341,6 +340,8 @@ The best.pt file is the weight file that contains the model with the best perfor
 ![image](https://github.com/user-attachments/assets/287d7d8f-752a-4c30-af89-062958cfc33a)
 
 When training the model, YOLO evaluates the model's performance after each epoch and updates the weights to improve the performance. Each time the model performs better on the validation, the weights are updated, and the best weights are saved in the best.pt file.
+![צילום מסך 2024-12-09 161815](https://github.com/user-attachments/assets/10e15e23-b624-443c-bd97-a86857dca473)
+![צילום מסך 2024-12-09 161500](https://github.com/user-attachments/assets/d4d0e4e5-ae4a-4132-8e3c-a45f0ec5aea1)
 
 In each of the scripts, only one line needs to be changed to replace the model with the trained model. You need to change the line: ```model = YOLO("yolov8s.pt")
 ``` to ```model = YOLO("runs/detect/train/weights/best.pt")```
