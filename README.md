@@ -331,9 +331,9 @@ It’s important to remember that training deep learning models can be computati
 
 Run the code  in the cmd the script train_model.py by typing `python train_model.py` then press enter and the training process will begin:
 
-
-![צילום מסך 2024-12-09 161815](https://github.com/user-attachments/assets/10e15e23-b624-443c-bd97-a86857dca473)
 ![צילום מסך 2024-12-09 161500](https://github.com/user-attachments/assets/d4d0e4e5-ae4a-4132-8e3c-a45f0ec5aea1)
+![צילום מסך 2024-12-09 161815](https://github.com/user-attachments/assets/10e15e23-b624-443c-bd97-a86857dca473)
+
 
 After trainig new directory will apear, the ```runs/detect/train/weights/``` directory is where all the files related to the model training are stored, including the weights of the trained model.
 
